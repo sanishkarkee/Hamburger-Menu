@@ -84,7 +84,7 @@ body {
 }
 
 @media (max-width: 650px) {
-  .nav {
+  .header .header__content .nav {
     position: fixed;
     top: 60px;
     background-color: rgb(19, 22, 26);
@@ -93,15 +93,15 @@ body {
     left: 0;
     transform: translateX(-100%);
   }
-  .nav .nav__list {
+  .header .header__content .nav .nav__list {
     flex-direction: column;
     align-items: center;
     row-gap: 20px;
   }
-  .nav .nav__list .nav__link {
+  .header .header__content .nav .nav__list .nav__link {
     font-size: 14px;
   }
-  .hamburger {
+  .header .header__content .hamburger {
     display: block;
   }
 }/*# sourceMappingURL=style.css.map */

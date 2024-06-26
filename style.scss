@@ -100,27 +100,31 @@ body {
 }
 
 @media (max-width: 650px) {
-  .nav {
-    position: fixed;
-    top: 60px;
-    background-color: rgb(19, 22, 26);
-    width: 100%;
-    padding: 10px 0 25px;
-    left: 0;
-    transform: translateX(-100%);
+  .header {
+    .header__content {
+      .nav {
+        position: fixed;
+        top: 60px;
+        background-color: rgb(19, 22, 26);
+        width: 100%;
+        padding: 10px 0 25px;
+        left: 0;
+        transform: translateX(-100%);
 
-    .nav__list {
-      flex-direction: column;
-      align-items: center;
-      row-gap: 20px;
+        .nav__list {
+          flex-direction: column;
+          align-items: center;
+          row-gap: 20px;
 
-      .nav__link {
-        font-size: 14px;
+          .nav__link {
+            font-size: 14px;
+          }
+        }
+      }
+
+      .hamburger {
+        display: block;
       }
     }
-  }
-
-  .hamburger {
-    display: block;
   }
 }
